@@ -3,9 +3,10 @@
 ## APR
 
 https://apr.apache.org/download.cgi
+http://archive.apache.org/dist/apr/
 
-* apr 1.6.5
-* apt-util 1.6.1
+* apr 1.5.2
+* apt-util 1.5.4
 
 ## log4cxx
 
