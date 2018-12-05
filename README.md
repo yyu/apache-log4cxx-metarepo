@@ -1,1 +1,1 @@
-# apache-log4cxx-metarepo
+## meta-repository for apache-log4cxx and dependencies
