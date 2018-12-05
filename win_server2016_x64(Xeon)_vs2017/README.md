@@ -1,5 +1,9 @@
 # building on Windows Server 2016
 
+## refs
+
+* https://github.com/aescande/log4cxxWin32
+
 ## APR
 
 https://apr.apache.org/download.cgi
