@@ -75,6 +75,7 @@ namespace log4cxx
                   FilterPtr next;
                 public:
                         Filter();
+                        DELETED_CTORS(Filter)
 
                         void addRef() const;
                         void releaseRef() const;

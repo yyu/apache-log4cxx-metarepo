@@ -20,6 +20,10 @@
 
 #include <log4cxx/helpers/object.h>
 
+#define DELETED_CTORS(T) T(const T&) = delete; T& operator=(const T&) = delete;
+
+#define DEFAULTED_AND_DELETED_CTORS(T) T() = default; T(const T&) = delete; T& operator=(const T&) = delete;
+
 namespace log4cxx
 {
    namespace helpers

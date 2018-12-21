@@ -46,6 +46,7 @@ namespace log4cxx
                         LOG4CXX_CAST_ENTRY(spi::OptionHandler)
                 END_LOG4CXX_CAST_MAP()
     
+                DEFAULTED_AND_DELETED_CTORS(Layout)
                 virtual ~Layout();
                 void addRef() const;
                 void releaseRef() const;

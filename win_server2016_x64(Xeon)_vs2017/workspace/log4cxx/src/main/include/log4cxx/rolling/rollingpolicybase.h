@@ -74,6 +74,7 @@ namespace log4cxx {
 
           public:
           RollingPolicyBase();
+          DELETED_CTORS(RollingPolicyBase)
           virtual ~RollingPolicyBase();
           void addRef() const;
           void releaseRef() const;

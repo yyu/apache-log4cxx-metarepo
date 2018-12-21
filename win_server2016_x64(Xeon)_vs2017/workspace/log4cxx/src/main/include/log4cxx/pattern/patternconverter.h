@@ -74,6 +74,7 @@ public:
   BEGIN_LOG4CXX_CAST_MAP()
           LOG4CXX_CAST_ENTRY(PatternConverter)
   END_LOG4CXX_CAST_MAP()
+  DEFAULTED_AND_DELETED_CTORS(PatternConverter)
 
   /**
    * Formats an object into a string buffer.
